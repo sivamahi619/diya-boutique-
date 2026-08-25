@@ -7,8 +7,7 @@ const INITIAL_CATEGORIES = [
   { id: 'sarees', name: 'Sarees', count: 18, image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80', description: 'Handcrafted Kanjivaram, Banarasi & Pure Silk' },
   { id: 'lehengas', name: 'Bridal Lehengas', count: 12, image: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80', description: 'Regal Zardozi & Embroidered Bridal Ensembles' },
   { id: 'kurtis', name: 'Kurtis & Suits', count: 24, image: 'https://images.unsplash.com/photo-1596783074918-c84cb06531ca?auto=format&fit=crop&w=600&q=80', description: 'Designer Anarkalis, Shararas & Everyday Chic' },
-  { id: 'western', name: 'Western & Gowns', count: 15, image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80', description: 'Evening Gowns, Co-ord Sets & Party Wear' },
-  { id: 'accessories', name: 'Jewellery & Clutches', count: 20, image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=600&q=80', description: 'Kundan Sets, Potlis & Designer Belts' }
+  { id: 'western', name: 'Western & Gowns', count: 15, image: 'https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=600&q=80', description: 'Evening Gowns, Co-ord Sets & Party Wear' }
 ];
 
 const INITIAL_COLLECTIONS = [
@@ -164,35 +163,6 @@ const INITIAL_PRODUCTS = [
     description: 'Airy, ethereal, and radiant under the sun. Metallic sheen organza draped effortlessly with scalloped floral borders.',
     careInstructions: 'Dry clean only. Avoid harsh creasing.',
     deliveryDays: '2-4 Business Days'
-  },
-  {
-    id: 'db-006',
-    sku: 'DB-AC-006',
-    name: 'Rajwada 22K Gold Plated Kundan Choker Set with Meenakari',
-    category: 'accessories',
-    subcategory: 'Jewellery',
-    collection: 'bridal-2026',
-    price: 8900,
-    originalPrice: 12500,
-    rating: 5.0,
-    reviewsCount: 41,
-    isFeatured: true,
-    isNewArrival: false,
-    isBestSeller: true,
-    fabric: 'Brass Alloy with 22K Micron Gold Plating',
-    pattern: 'Hand-set Glass Kundan, Freshwater Pearls & Meenakari',
-    occasion: 'Bridal & Traditional Festivities',
-    color: 'Gold & Emerald Green Drops',
-    colorsAvailable: ['#2e5339', '#800020', '#ffffff'],
-    sizesAvailable: ['Adjustable Dori'],
-    stock: 18,
-    images: [
-      'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=800&q=80'
-    ],
-    description: 'Heritage statement necklace set complete with matching jhumkas and maang tikka. Beautiful hand-enamelled back meenakari detailing.',
-    careInstructions: 'Wipe with soft lint-free cloth. Store in airtight zip pouch away from water and perfume.',
-    deliveryDays: '2-3 Business Days'
   },
   {
     id: 'db-007',
